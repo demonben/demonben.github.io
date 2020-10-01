@@ -1,4 +1,4 @@
-const GITHUB_URL = "https://api.github.com/users/IsraelTechChallengeITC";
+const GITHUB_URL = "https://api.github.com/users/demonben";
 
 fetch(GITHUB_URL)
   .then(function(response) {
@@ -7,4 +7,5 @@ fetch(GITHUB_URL)
   .then(function(data) {
     const profileImage = document.getElementById("profile-image");
     profileImage.src = data.avatar_url;
+    console.log(data);
   });
