@@ -1,5 +1,5 @@
 const checkLength = function(evt) {
-  if (phoneField.value.length > 5 && dddField.value.length > 5 && mailField.value.length > 5 && requests.value.length > 5 && select.value.length > 2) {
+  if (phoneField.value.length > 5 && dddField.value.length > 5 && mailField.value.length > 5 && requests.value.length > 5 && kittens.value.length > 2) {
   	button.removeAttribute('disabled')
   }
 }
@@ -42,3 +42,5 @@ form.addEventListener('submit', function (event) {
   console.log('Do you like little kittens??? ', where.value)
   console.log('Special requests: ', message.value)
   })
+
+   
