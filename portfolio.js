@@ -14,9 +14,9 @@ fetch(GITHUB_URL)
   .then(function(response) {
     return response.json();
   })
-  .then(function() {
+  .then(function(data) {
     const profileName = document.getElementById("my-name");
-    profileName.src = data.profile_user_id;
+    profileName.innerText = data.login;
     console.log();
   });
 
@@ -42,3 +42,17 @@ stiffness: 200
 // damping: 10
 }).start(ballXY);
 });
+
+
+
+var en = {
+  h: "HTML",
+  css: "CSS",
+  js: "JavaScript",
+  };
+  
+  document.addEventListener('DOMContentLoaded', function(){
+  document.querySelector('label[name="h"]').textContent = en.h;
+  document.querySelector('label[name="css"]').textContent = en.css;
+  document.querySelector('label[name="js"]').textContent = en.js;
+  });
