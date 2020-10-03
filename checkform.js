@@ -9,13 +9,13 @@ const phoneField = document.querySelector('input[name="phone"]')
 const dddField = document.querySelector('input[name="ddd"]')
 const mailField = document.querySelector('input[name="mail"]')
 const requests = document.querySelector('textarea[name="request"]')
-const select = document.querySelector('select[name="kittens"]')
+const kittens = document.querySelector('select[name="kittens"]')
 const button = document.querySelector('button')
 phoneField.addEventListener('keyup', checkLength)
 dddField.addEventListener('keyup', checkLength)
 mailField.addEventListener('keyup', checkLength)
 requests.addEventListener('keyup', checkLength)
-select.addEventListener('keyup', checkLength)
+kittens.addEventListener('keyup', checkLength)
 
 
 
