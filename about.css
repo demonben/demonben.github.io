@@ -1,151 +1,89 @@
-/*css about*/
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  
-  
-  font-size: 20px;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-}
-.wrapper{
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 5rem;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  color: aliceblue;
-  
-  font-family:'Noto Serif TC', serif;
-  background-size: cover;
-} 
-
-h2{ 
-  font-family: 'Lacquer', cursive;
-  color: #F27781;
-  font-size: 40px;
-}
-
-div{
-  margin: 10px;
-  margin-top: 50px;
-}
-nav {
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link href="./about.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&family=Noto+Serif+TC:wght@700;900&display=swap" rel="stylesheet">
+    <link href="./css icon/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
+ </nav>
  
-  
-  position: fixed;
-  top: 0;
-  width: 100%;
-  font-family: 'Lacquer', cursive;
-  font-weight: 700;
-  font-size: 30px;
-  
- 
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-nav li {
-  display: inline-block;
-}
-nav a {
-  text-decoration: none;
-  color: #1564EB;
-  display: block;
-  padding: 0.5rem 4rem;
-}
-nav a:hover {
-  
-  color: #84DE37;
-  font-size: 50px;
-  font-weight: 1000;
-}
-
-
-
-section {
-  
-  margin-bottom: 0.3rem;
-  display: flex;
-  flex-flow: column nowrap;
-  
-}
-article img {
-  float: left;
-  margin: 0 1rem 1rem 0;
-  border-radius: 1rem;
-  box-sizing: 100px 100px;
-}
-
-
-  /*gallery*/
-  .gallery-map {
-    display: none;
-    max-height: 600px;
-  }
-  
-  .active {
-    display: block;
-  }
-  
-  .maps-gallery {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .btns {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .btn {
-    background-color: #0074d9;
-    color: white;
-    font-size: 20px;
-    padding: 5px 20px;
-    border-color: transparent;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .prev {
-    margin-right: 15px;
-  }
-  
-  .btn:disabled {
-    background-color: #666;
-    cursor: not-allowed;
-    display: none;
-  }
-
-  footer {
-    padding: 1rem 0 3rem 0;
-    text-align: center;
-    font-size: 0.8rem;
-    border-top: 1px solid #A61F11;
-    background: white;
+ <div class = wrapper>
+     
+   <section>
+      <article>
+      
+          <img src="./img/why im here.jpg"  width="300" height="300" alt="question">
+      <h2> Why I'm here? </h2> 
+      <p> I love to code because if I can think it, I can make it a reality. In programming if you can consistently create a logic that interacts with the other parts of the computer and other applications you can make it happen. All you need to do after you thought it up is actually write it and presto a new thing is created into the world. That really feels like being a wizard.</p>
+    </article>  
     
-    }
-  footer ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    }
-  footer li {
-    display: inline-block;
-    }
+    <article> 
+
+      <img src="./img/work study.jpg"  width="300" height="300" alt="work study ">
+      <h2>Education and career experience</h2>
+      <p> I graduated Baltic Federal University with a degree in finance and credit. (Kaliningrad city, Russia)
+        I have completed courses in auction activities and courses in transport safety.
+        Successfully completed English language courses in London at the level B2, also graduated from the ulpan and received a diploma on passing exam on level “gimel”
+      </p>
+      <p>Worked for four years in a logistics retail company in Russia as an innovation manager. I also have experience in investment activities.</p>
+    </article>
+   </section>
+
+    <article>
+      <img src="./img/hobby.jpg"  width="300" height="300" alt="Earth-Vision Reality TV. ">
+      <h2> My personal interests. </h2>
+      <p>I always strive to learn something new and look for my calling in this world. I pay great attention to a healthy lifestyle, go in for sports and comprehend the art of meditation. I love reading interesting scientific articles and benefit from them for my daily life. I’m also well versed in cooking meat on fire and I love to please my family with a delicious steak.
+        Coding is my new passion, while studying this course I realized that I wanted to learn more in this new craft for me, and I’m sure that I will succeed!</p>
+    </article>  
+
+    <article>
+      <img src="./img/location.jpg"  width="300" height="300" alt="Earth-Vision Reality TV. ">
+      <h2>Location</h2>
+      <p>I was born in the city of Kaliningrad in Russia. In 2012 I came to Israel under the “Sella” program and lived in the Karmiel city for about a year. Now for two half years my wife and I have been living in the city of Ramat Gan, this quiet and green place has become my second home.</p>
+    </article>  
+    </div>
+    <div class="maps-gallery">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d147513.06792869035!2d20.32444584155723!3d54.71152874893069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e33d8d4b7c21a9%3A0x5050960016126ed3!2z0JrQsNC70LjQvdC40L3Qs9GA0LDQtCwg0JrQsNC70LjQvdC40L3Qs9GA0LDQtNGB0LrQsNGPINC-0LHQuy4sINCg0L7RgdGB0LjRjw!5e0!3m2!1sru!2sil!4v1600952773998!5m2!1sru!2sil" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"  class="gallery-map active"> </iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214360.0441231787!2d35.29241696525496!3d32.91467098620117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c33e664765f2b%3A0x1b61c5431d415446!2z0JrQsNGA0LzQuNGN0LvRjA!5e0!3m2!1sru!2sil!4v1601107470127!5m2!1sru!2sil" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="gallery-map"></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108169.91309763689!2d34.727204997253445!3d32.087912232297256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4ca6193b7c1f%3A0xc1fb72a2c0963f90!2z0KLQtdC70Ywt0JDQstC40LI!5e0!3m2!1sru!2sil!4v1601107289512!5m2!1sru!2sil" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="gallery-map"></iframe>
+      </div>
+    <div class="btns">
+            <button disabled class="btn prev">Prev</button>
+            <button class="btn next">Next</button>
+          </div>
+          
+          <footer>
+            <ul>
+             <li><a href="./index.html">Home</a></li>
+             <li><a href="./about.html">About</a></li>
+             <li><a href="./contact.html">Contact</a></li>
+            </ul>
+              
+            <p>Israel Tech Challenge</p>
+            <p>Legal disclaimer, copyright, etc.</p>
+            <p> This page was built using: HTML, CSS and JavaScript</p>       
+           
     
+             
+    
+            <ul>
+              <li><a href="https://www.linkedin.cn/login/ru?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"><i class="fab fa-3x fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/"><i class="fab fa-3x fa-github"></i></a></li>
+              <li><a href="https://ru.stackoverflow.com/questions/tagged/html"> <i class="fab fa-3x fa-stack-overflow" ></i></a></li>
+            </ul>
+              </footer>   
+      
+       <script src="./gallery maps.js"></script> 
+       
+</body>
+</html>
