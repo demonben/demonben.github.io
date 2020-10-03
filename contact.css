@@ -73,9 +73,9 @@ nav a:hover {
   font-size: 50px;
   font-weight: 1000;
 }
-button:disabled{
+button:disabled {
   margin: 2rem 0;
-  color:gray;
+  color:rgb(218, 40, 40);
 	border: none;
 	font-size: 1rem;
 	padding: 0.5rem 1rem;
