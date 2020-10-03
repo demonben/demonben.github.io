@@ -26,7 +26,7 @@
          <form class='formWithValidation'>
          
              <label>*Name:</label>
- <input type='text' class="from" name="ddd">
+ <input type='text' class="from" name="name">
            
          
          
@@ -45,36 +45,38 @@
                  <textarea class='message'name="request" ></textarea>
                     
                  <!--   -->
-                <p><label>*Do you like little kittens???</label>
-                  <select class='where'name="kittens">
-                    <option></option>
-                    <option value='yes'>YES!</option>
-                    <option value='yes of course!'>YES OF COURSE!</option> </select></p>
+                 <p><label>*Do you like little kittens???</label>
+                  <select onchange="checkLength()" class='where' name="kittens">
+                  <option></option>
+                  <option value='yes'>YES!</option>
+                  <option value='yes of course!'>YES OF COURSE!</option> </select></p>
 
             <p> <button disabled  type='submit' class='validateBtn'  value='Validate'>Submit</button> </p>
          </form>
     </fieldset>
       </section>
     </div>
-      <footer>
-        <ul>
-         <li><a href="./index.html">Home</a></li>
-         <li><a href="./about.html">About</a></li>
-         <li><a href="./contact.html">Contact</a></li>
-        </ul>
-       
-
-       
-      <p>Israel Tech Challenge</p>
-      <p>Legal disclaimer, copyright, etc.</p>
-      <p> This page was built using: HTML, CSS and JavaScript</p>
-
+    <footer>
       <ul>
-        <li><a href="https://www.linkedin.cn/login/ru?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"><i class="fab fa-3x fa-linkedin"></i></a></li>
-        <li><a href="https://github.com/"><i class="fab fa-3x fa-github"></i></a></li>
-        <li><a href="https://ru.stackoverflow.com/questions/tagged/html"> <i class="fab fa-3x fa-stack-overflow" ></i></a></li>
-      </ul>
-      </footer> 
+       <li><a href="./index.html">Home</a></li>
+       <li><a href="./about.html">About</a></li>
+       <li><a href="./contact.html">Contact</a></li>
+
+      </ul>  
+      
+       <p>Israel Tech Challenge</p>
+       <p>Legal disclaimer, copyright, etc.</p>
+       <p> This page was built using: <label name="h"></label> , <label name="css"></label> and <label name="js"></label></p>       
+      
+
+        
+
+       <ul>
+         <li><a href="https://www.linkedin.cn/feed/?trk=homepage-basic_signin-form_submit"><i class="fab fa-3x fa-linkedin"></i></a></li>
+         <li><a href="https://github.com/demonben"><i class="fab fa-3x fa-github"></i></a></li>
+         <li><a href="https://ru.stackoverflow.com/users/409544/dmitrii-benenson"> <i class="fab fa-3x fa-stack-overflow" ></i></a></li>
+       </ul>
+         </footer>
     
 <script src="checkform.js"></script> 
 </body>
