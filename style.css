@@ -23,7 +23,11 @@ padding: 0;
   background-size: cover;
   
 }
-
+h1, h2 {
+ 
+  justify-content: center;
+  display: flex;
+}
 nav {
  
   
