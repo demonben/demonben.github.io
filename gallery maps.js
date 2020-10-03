@@ -26,3 +26,16 @@ nextBtn.addEventListener('click' , function() {
      nextBtn.disabled=true;
  }
 });
+
+
+var en = {
+    h: "HTML",
+    css: "CSS",
+    js: "JavaScript",
+    };
+    
+    document.addEventListener('DOMContentLoaded', function(){
+    document.querySelector('label[name="h"]').textContent = en.h;
+    document.querySelector('label[name="css"]').textContent = en.css;
+    document.querySelector('label[name="js"]').textContent = en.js;
+    });
