@@ -7,7 +7,6 @@ fetch(GITHUB_URL)
   .then(function (data) {
     const profileImage = document.getElementById("profile-image");
     profileImage.src = data.avatar_url;
-    console.log(data);
   });
 
 fetch(GITHUB_URL)
