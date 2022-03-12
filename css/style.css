@@ -28,14 +28,29 @@ nav a {
 }
 
 /* footer */
+
 footer {
+  text-align: center;
 }
 footer ul {
+  list-style-type: none;
 }
 footer li {
+display: inline-block;
+  
 }
+footer a {
+  text-decoration: none;
+}
+
 /* card style */
+.card-wraper{
+  display: flex;
+  justify-content: center
+}
 .card {
+  height: 500px;
+  width: 500px;
   align-items: center;
   background-image: linear-gradient(to bottom right, orange, blue);
   border-radius: 25px;
