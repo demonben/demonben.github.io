@@ -1,4 +1,3 @@
-
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 const galleryImgs = document.querySelectorAll(".gallery-map");
@@ -18,7 +17,7 @@ prevBtn.addEventListener("click", function () {
 
 nextBtn.addEventListener("click", function () {
   galleryImgs[currentlySelected].classList.remove("active");
-  currentlySelected++; 
+  currentlySelected++;
 
   galleryImgs[currentlySelected].classList.add("active");
   prevBtn.disabled = false;
