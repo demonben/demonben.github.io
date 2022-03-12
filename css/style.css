@@ -3,7 +3,7 @@ html {
 }
 body {
   font-family: "Lacquer", cursive;
-  background-image: url(../img/backgrownd1.jpeg);
+  background-image: url(../img/bg1.png);
   background-size: cover;
   font-size: 20px;
   height: 100vh;
@@ -16,7 +16,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: antiquewhite;
+  background-color: #091e39;
 }
 nav ul {
   list-style-type: none;
@@ -27,34 +27,35 @@ nav ul {
 nav a {
   font-size: 2rem;
   text-decoration: none;
+  color: #77e7fe;
 }
 
 /* footer */
 
 footer {
   text-align: center;
+  background-color: #84de37;
 }
 footer ul {
   list-style-type: none;
 }
 footer li {
-display: inline-block;
-  
+  display: inline-block;
 }
 footer a {
   text-decoration: none;
 }
 
 /* card style */
-.card-wraper{
+.card-wraper {
   display: flex;
-  justify-content: center
+  justify-content: center;
 }
 .card {
   height: 500px;
   width: 500px;
   align-items: center;
-  background-image: linear-gradient(to bottom right, orange, blue);
+  background-image: linear-gradient(to bottom right, #1a5186, #041a30);
   border-radius: 25px;
   -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
@@ -67,7 +68,7 @@ footer a {
 }
 .card:hover {
   align-items: center;
-  background-image: linear-gradient(to bottom right, orange, #84de37);
+  background-image: linear-gradient(to bottom right, #041a30, #1a5186);
   border-radius: 25px;
   -webkit-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 4px 4px 40px 0px rgba(0, 0, 0, 1);
