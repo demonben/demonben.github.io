@@ -1,3 +1,4 @@
+
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 const galleryImgs = document.querySelectorAll(".gallery-map");
@@ -5,7 +6,7 @@ let currentlySelected = 0;
 
 prevBtn.addEventListener("click", function () {
   galleryImgs[currentlySelected].classList.remove("active");
-  currentlySelected--; // curentlySelected=curentlySelected-1
+  currentlySelected--;
 
   galleryImgs[currentlySelected].classList.add("active");
   nextBtn.disabled = false;
@@ -17,7 +18,7 @@ prevBtn.addEventListener("click", function () {
 
 nextBtn.addEventListener("click", function () {
   galleryImgs[currentlySelected].classList.remove("active");
-  currentlySelected++; // curentlySelected=curentlySelected+1
+  currentlySelected++; 
 
   galleryImgs[currentlySelected].classList.add("active");
   prevBtn.disabled = false;
