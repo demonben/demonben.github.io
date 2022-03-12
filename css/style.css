@@ -1,6 +1,11 @@
 html {
   box-sizing: border-box;
 }
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
   font-family: "Lacquer", cursive;
   font-size: 20px;
@@ -8,17 +13,55 @@ body {
   margin: 0;
   padding: 0;
 }
-/* nav */
-
-
-/* footer */
-footer {
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/backgrowndphoto.img.jpg);
+  background-size: cover;
 }
-footer ul {
+h1,
+h2 {
+  justify-content: center;
+  display: flex;
 }
-footer li {
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: "Lacquer", cursive;
+  font-weight: 700;
+  font-size: 30px;
 }
-/* card style */
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  color: #1564eb;
+  display: block;
+  padding: 0.5rem 4rem;
+}
+nav a:hover {
+  color: #84de37;
+  font-size: 50px;
+  font-weight: 1000;
+}
+.brand {
+  margin: 0;
+  font-size: 50px;
+  z-index: 10;
+  cursor: grab;
+}
 .card {
   align-items: center;
   background-image: linear-gradient(to bottom right, orange, blue);
@@ -45,6 +88,7 @@ footer li {
   margin: 90px;
   padding: 50px;
 }
+
 .profile-image {
   background-color: black;
   border-radius: 50%;
@@ -54,8 +98,18 @@ footer li {
   margin: 50px;
   width: 180px;
 }
-h1,
-h2 {
-  justify-content: center;
-  display: flex;
+
+footer {
+  padding: 1rem 0 3rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  border-top: 1px solid #a61f11;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+footer li {
+  display: inline-block;
 }
