@@ -15,15 +15,14 @@ body {
 }
 
 .wrapper {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 5rem;
+  width: 95%;
+  margin: auto;
+  margin-top: 7rem;
   align-items: center;
   flex-direction: column;
   display: flex;
   justify-content: center;
   color: aliceblue;
-
   font-family: "Noto Serif TC", serif;
   background-size: cover;
 }
@@ -34,10 +33,6 @@ h2 {
   font-size: 40px;
 }
 
-div {
-  margin: 10px;
-  margin-top: 50px;
-}
 /* nav */
 
 nav {
@@ -88,6 +83,7 @@ article img {
 }
 
 .btns {
+  margin: 1rem 0 1rem 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -133,5 +129,3 @@ footer a {
 .site-map {
   padding-top: 5px;
 }
-
-
