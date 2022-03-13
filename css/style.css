@@ -16,7 +16,7 @@ nav {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color: #091e39;
+  background-color: #030f1d;
 }
 nav ul {
   list-style-type: none;
@@ -34,7 +34,7 @@ nav a {
 
 footer {
   text-align: center;
-  background-color: #84de37;
+  background-color: #13406e;
 }
 footer ul {
   list-style-type: none;
@@ -45,6 +45,12 @@ footer li {
 footer a {
   text-decoration: none;
 }
+.footer-links {
+  color: #77e7fe;
+}
+.site-map{
+  padding-top: 5px;
+}
 
 /* card style */
 .card-wraper {
@@ -54,6 +60,7 @@ footer a {
 .card {
   height: 500px;
   width: 500px;
+  cursor: pointer;
   align-items: center;
   background-image: linear-gradient(to bottom right, #1a5186, #041a30);
   border-radius: 25px;
@@ -80,7 +87,6 @@ footer a {
   padding: 50px;
 }
 .profile-image {
-  background-color: black;
   border-radius: 50%;
   color: white;
   font-size: 32px;
@@ -92,4 +98,5 @@ h1,
 h2 {
   justify-content: center;
   display: flex;
+  color: #030e1a;
 }
