@@ -49,8 +49,7 @@ legend {
 }
 
 .wrapper {
-  width: 90%;
-  margin: 0 auto;
+  margin: 5rem 0 3rem 0;
   align-items: center;
   display: flex;
   flex-direction: column;
