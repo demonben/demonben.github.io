@@ -1,26 +1,28 @@
-/*css about*/
-
-* {
-  box-sizing: border-box;
-}
-
 body {
+  font-family: "Lacquer", cursive;
+  background-color: #18518e;
+  background-size: cover;
   font-size: 20px;
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: black;
 }
+.article-contaier{
+  padding: 10px;
+  margin: 10px;
+  background-color: #030f1d;
+  border-radius: 10px;
+}
+
 .wrapper {
-  width: 90%;
-  margin: 0 auto;
-  margin-top: 5rem;
+  width: 95%;
+  margin: auto;
+  margin-top: 7rem;
   align-items: center;
   flex-direction: column;
   display: flex;
   justify-content: center;
   color: aliceblue;
-
   font-family: "Noto Serif TC", serif;
   background-size: cover;
 }
@@ -31,39 +33,31 @@ h2 {
   font-size: 40px;
 }
 
-div {
-  margin: 10px;
-  margin-top: 50px;
-}
+/* nav */
+
 nav {
+  width: 100%;
   position: fixed;
   top: 0;
-  width: 100%;
-  font-family: "Lacquer", cursive;
-  font-weight: 700;
-  font-size: 30px;
+  background-color: #030f1d;
 }
 nav ul {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
-  text-align: center;
-}
-nav li {
-  display: inline-block;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 nav a {
+  font-size: 2rem;
   text-decoration: none;
-  color: #1564eb;
-  display: block;
-  padding: 0.5rem 4rem;
+  color: #77e7fe;
 }
 nav a:hover {
-  color: #84de37;
-  font-size: 50px;
-  font-weight: 1000;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #00d5ff;
 }
-
+/* article section */
 section {
   margin-bottom: 0.3rem;
   display: flex;
@@ -71,7 +65,7 @@ section {
 }
 article img {
   float: left;
-  margin: 0 1rem 1rem 0;
+  margin: 0 1rem 0 0;
   border-radius: 1rem;
   box-sizing: 100px 100px;
 }
@@ -91,9 +85,11 @@ article img {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 .btns {
+  margin: 1rem 0 1rem 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -119,21 +115,30 @@ article img {
   cursor: not-allowed;
   display: none;
 }
-
+/* footer */
 footer {
-  font-family: "Lacquer", cursive;
-  padding: 1rem 0 3rem 0;
   text-align: center;
-  font-size: 0.8rem;
-  border-top: 1px solid #a61f11;
-  background: white;
+  background-color: #13406e;
 }
-
 footer ul {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 footer li {
   display: inline-block;
+}
+footer a {
+  text-decoration: none;
+}
+.footer-links {
+  color: #77e7fe;
+}
+.footer-links:hover {
+  color: #00d5ff;
+}
+.site-map {
+  padding-top: 5px;
+}
+.footer-icons{
+  margin: 0;
+  padding-bottom: 10px;
 }

@@ -5,17 +5,49 @@
 
 body {
   font-family: "Lacquer", cursive;
+  background-image: url(../img/bg1.png);
+  background-size: cover;
   font-size: 20px;
-  height: 30vh;
   margin: 0;
   padding: 0;
-  background-image: url(./img/backgrowndcontact1.jpg);
-  background-size: cover;
 }
+.content {
+  height: 100vh;
+}
+
+/* nav */
+
+nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #030f1d;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #77e7fe;
+}
+nav a:hover {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #00d5ff;
+}
+
 fieldset {
   margin: 10px;
-  margin-top: 50px;
-  color: greenyellow;
+  margin-left: auto;
+  margin-right:auto ;
+  margin-top: 200px;
+  color: #00d5ff ;
+  background-color: #030f1d;
+  width: 80%;
 }
 section {
   margin-top: 5rem;
@@ -23,50 +55,12 @@ section {
   margin-right: 0%;
 }
 
-legend {
-  font-size: 30px;
+.formWithValidation{
+  padding-top: 1rem;
 }
 
-.wrapper {
-  width: 90%;
-  margin: 0 auto;
-  align-items: center;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  font-weight: 700;
-  font-size: 30px;
-  padding-top: 10px;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-nav li {
-  display: inline-block;
-}
-nav a {
-  text-decoration: none;
-  color: #1564eb;
-  display: block;
-  padding: 0.5rem 4rem;
-}
-nav a:hover {
-  color: #84de37;
-  font-size: 50px;
-  font-weight: 1000;
-}
 button:disabled {
-  margin: 2rem 0;
-  color: rgb(218, 40, 40);
+  background-color: #0099cc;
   border: none;
   font-size: 1rem;
   padding: 0.5rem 1rem;
@@ -74,7 +68,6 @@ button:disabled {
 }
 
 button {
-  margin: 2rem 0;
   background-color: greenyellow;
   color: black;
   border: none;
@@ -83,19 +76,31 @@ button {
   border-radius: 10px;
 }
 
+/* footer */
+
 footer {
-  padding: 1rem 0 3rem 0;
   text-align: center;
-  font-size: 0.8rem;
-  border-top: 1px solid #a61f11;
-  background: white;
-  margin-top: 120px;
+  background-color: #13406e;
 }
 footer ul {
-  margin: 0;
-  padding: 0;
   list-style-type: none;
 }
 footer li {
   display: inline-block;
+}
+footer a {
+  text-decoration: none;
+}
+.footer-links {
+  color: #77e7fe;
+}
+.footer-links:hover {
+  color: #00d5ff;
+}
+.site-map {
+  padding-top: 5px;
+}
+.footer-icons{
+  margin: 0;
+  padding-bottom: 10px;
 }

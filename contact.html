@@ -12,17 +12,17 @@
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <div class="wrapper">
-    <section>
-      <fieldset>
+  <div class="content">
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
+    <div class="wrapper">
+      <fieldset>
         <legend>Your contact information</legend>
         <form class='formWithValidation'>
 
@@ -53,26 +53,29 @@
           <p> <button disabled type='submit' class='validateBtn' value='Validate'>Submit</button> </p>
         </form>
       </fieldset>
-    </section>
+    </div>
   </div>
   <footer>
-    <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
+    <div class="site-map">
+      <ul>
+        <li><a class="footer-links" href="./index.html">Home</a></li>
+        <li><a class="footer-links" href="./about.html">About</a></li>
+        <li><a class="footer-links" href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
 
-    <p>Israel Tech Challenge</p>
-    <p>Legal disclaimer, copyright, etc.</p>
-    <p> This page was built using: <label name="h"></label> , <label name="css"></label> and <label name="js"></label>
-    </p>
+    <div>
+      <p> This page was built using: <label name="h"></label> , <label name="css"></label> and <label name="js"></label>
+      </p>
+    </div>
 
-    <ul>
-      <li><a href="https://www.linkedin.cn/feed/?trk=homepage-basic_signin-form_submit"><i
-            class="fab fa-3x fa-linkedin"></i></a></li>
-      <li><a href="https://github.com/demonben"><i class="fab fa-3x fa-github"></i></a></li>
-      <li><a href="https://ru.stackoverflow.com/users/409544/dmitrii-benenson"> <i
-            class="fab fa-3x fa-stack-overflow"></i></a></li>
+    <ul class="footer-icons">
+      <li><a class="footer-links" href="https://www.linkedin.com/in/dmitrii-benenson-b164091ab/"><i
+            class="fab fa-2x fa-linkedin"></i></a>
+      </li>
+      <li><a class="footer-links" href="https://github.com/demonben"><i class="fab fa-2x fa-github"></i></a></li>
+      <li><a class="footer-links" href="https://ru.stackoverflow.com/users/409544/dmitrii-benenson"> <i
+            class="fab fa-2x fa-stack-overflow"></i></a></li>
     </ul>
   </footer>
 
