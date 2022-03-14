@@ -8,9 +8,11 @@ body {
   background-image: url(../img/bg1.png);
   background-size: cover;
   font-size: 20px;
-  height: 30vh;
   margin: 0;
   padding: 0;
+}
+.content {
+  height: 80vh;
 }
 
 /* nav */
@@ -44,17 +46,12 @@ section {
   margin-right: 0%;
 }
 
-legend {
-  font-size: 30px;
-}
-
 .wrapper {
   margin: 5rem 0 3rem 0;
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-
 
 button:disabled {
   margin: 2rem 0;
@@ -93,6 +90,9 @@ footer a {
 .footer-links {
   color: #77e7fe;
 }
-.site-map{
+.site-map {
   padding-top: 5px;
+}
+.footer-icons{
+  margin: 0;
 }

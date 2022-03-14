@@ -10,6 +10,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.content{
+  height: 100vh;
+}
+
 /* nav */
 
 nav {
@@ -35,6 +39,7 @@ nav a {
 footer {
   text-align: center;
   background-color: #13406e;
+  margin-bottom: 10px;
 }
 footer ul {
   list-style-type: none;

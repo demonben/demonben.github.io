@@ -12,48 +12,49 @@
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="content">
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-  <div class="wrapper">
-    <fieldset>
-      <legend>Your contact information</legend>
-      <form class='formWithValidation'>
+    <div class="wrapper">
+      <fieldset>
+        <legend>Your contact information</legend>
+        <form class='formWithValidation'>
 
-        <label>*Name:</label>
-        <input type='text' class="from" name="name">
+          <label>*Name:</label>
+          <input type='text' class="from" name="name">
 
-        <p><label>Last name: </label>
-          <input type='text' class='from22' />
+          <p><label>Last name: </label>
+            <input type='text' class='from22' />
 
-        <p> <label>*Phone number:</label>
-          <input type="text" class="phone" name="phone">
+          <p> <label>*Phone number:</label>
+            <input type="text" class="phone" name="phone">
 
-        <p><label>*Email:</label>
-          <input type="email" class="email" name="mail">
+          <p><label>*Email:</label>
+            <input type="email" class="email" name="mail">
 
 
-        <p><label>*Special requests:</label>
-          <textarea class='message' name="request"></textarea>
+          <p><label>*Special requests:</label>
+            <textarea class='message' name="request"></textarea>
 
-        <p><label>*Do you like little kittens???</label>
-          <select onchange="checkLength()" class='where' name="kittens">
-            <option></option>
-            <option value='yes'>YES!</option>
-            <option value='yes of course!'>YES OF COURSE!</option>
-          </select>
-        </p>
+          <p><label>*Do you like little kittens???</label>
+            <select onchange="checkLength()" class='where' name="kittens">
+              <option></option>
+              <option value='yes'>YES!</option>
+              <option value='yes of course!'>YES OF COURSE!</option>
+            </select>
+          </p>
 
-        <p> <button disabled type='submit' class='validateBtn' value='Validate'>Submit</button> </p>
-      </form>
-    </fieldset>
+          <p> <button disabled type='submit' class='validateBtn' value='Validate'>Submit</button> </p>
+        </form>
+      </fieldset>
+    </div>
   </div>
-
   <footer>
     <div class="site-map">
       <ul>
@@ -68,7 +69,7 @@
       </p>
     </div>
 
-    <ul>
+    <ul class="footer-icons">
       <li><a class="footer-links" href="https://www.linkedin.com/in/dmitrii-benenson-b164091ab/"><i
             class="fab fa-2x fa-linkedin"></i></a>
       </li>
