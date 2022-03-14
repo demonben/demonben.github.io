@@ -34,6 +34,11 @@ nav a {
   text-decoration: none;
   color: #77e7fe;
 }
+nav a:hover {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #00d5ff;
+}
 
 fieldset {
   margin: 10px;
@@ -89,6 +94,9 @@ footer a {
 }
 .footer-links {
   color: #77e7fe;
+}
+.footer-links:hover {
+  color: #00d5ff;
 }
 .site-map {
   padding-top: 5px;

@@ -33,6 +33,11 @@ nav a {
   text-decoration: none;
   color: #77e7fe;
 }
+nav a:hover {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #00d5ff;
+}
 
 /* footer */
 
@@ -52,6 +57,9 @@ footer a {
 }
 .footer-links {
   color: #77e7fe;
+}
+.footer-links:hover {
+  color: #00d5ff;
 }
 .site-map{
   padding-top: 5px;
@@ -75,7 +83,7 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 90px;
+  margin: 140px 90px 90px 90px;
   padding: 50px;
 }
 .card:hover {
@@ -88,7 +96,7 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 90px;
+  margin: 140px 90px 90px 90px;
   padding: 50px;
 }
 .profile-image {
