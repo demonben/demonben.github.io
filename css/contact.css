@@ -55,10 +55,12 @@ section {
   margin-right: 0%;
 }
 
+.formWithValidation{
+  padding-top: 1rem;
+}
 
 button:disabled {
-  margin: 2rem 0;
-  color: rgb(218, 40, 40);
+  background-color: #0099cc;
   border: none;
   font-size: 1rem;
   padding: 0.5rem 1rem;
@@ -66,7 +68,6 @@ button:disabled {
 }
 
 button {
-  margin: 2rem 0;
   background-color: greenyellow;
   color: black;
   border: none;
